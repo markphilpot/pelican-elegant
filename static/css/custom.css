@@ -1,0 +1,10 @@
+.center {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.link-nb {
+  border-bottom: 0px !important;
+  text-decoration: underline;
+}
