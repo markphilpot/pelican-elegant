@@ -14,3 +14,10 @@
   padding: 0 !important;
   padding-bottom: 4px !important;
 }
+
+.studio {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  border: 0 !important;
+}
