@@ -20,6 +20,11 @@
 {{ seo_metadata(article) }}
 {% endblock meta_tags_in_head %}
 
+{% block head_links %}
+{{ super() }}
+<link href="{{ SITEURL }}/theme/css/lightbox.css" rel="stylesheet">
+{% endblock head_links %}
+
 {% block content %}
 <article>
 <div class="row-fluid">
@@ -113,4 +118,5 @@
     {{ super() }}
     {% from '_includes/comments.html' import comments_script with context %}
     {{ comments_script(article) }}
+    <script src="{{ SITEURL }}/theme/js/lightbox.js"></script>
 {% endblock script %}
